@@ -1,0 +1,22 @@
+touch .gitignore
+git congif --global user.name (name)
+git congif --global user.email (email)
+git init
+git add .
+git commit -m "Initial Commit"
+git status # Just to see
+ssh-keygen -t rsa -b 4096 -C "youeremail@example.com"
+Cat <path to id-rsa.pub> # Add this key to github accunt
+git remote add origin <ssh url.git>
+git push origin master
+
+
+
+
+###for update###
+================
+
+git status
+git add .
+git commit -m "Added (filename)"
+git push origin master
